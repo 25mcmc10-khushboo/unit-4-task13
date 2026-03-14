@@ -1,0 +1,79 @@
+body{
+font-family: 'Segoe UI', sans-serif;
+background: linear-gradient(135deg,#4facfe,#00f2fe);
+margin:0;
+padding:0;
+text-align:center;
+min-height:100vh;
+}
+
+h2{
+font-size:36px;
+color:hsl(60, 3%, 7%);
+margin-top:40px;
+}
+
+input{
+padding:12px;
+font-size:16px;
+border:none;
+border-radius:10px;
+outline:none;
+width:220px;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+button{
+padding:12px 20px;
+font-size:16px;
+border:none;
+border-radius:10px;
+background:#ff9800;
+color:white;
+margin-left:10px;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+background:#fb8c00;
+}
+
+
+h3{
+margin-top:30px;
+color:#333;
+}
+
+
+p{
+background:white;
+padding:12px;
+margin:10px auto;
+border-radius:8px;
+width:220px;
+box-shadow:0 4px 12px rgba(0,0,0,0.15);
+}
+
+
+img{
+width:70px;
+height:70px;
+margin:10px 0;
+}
+
+
+h4{
+color:#1976d2;
+margin-top:20px;
+}
+
+
+.forecast-card{
+background:hsl(0, 10%, 96%);
+padding:15px;
+margin:10px;
+border-radius:12px;
+box-shadow:0 6px 15px rgba(0,0,0,0.2);
+display:inline-block;
+}
